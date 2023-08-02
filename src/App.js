@@ -86,12 +86,6 @@ function App() {
         ))}
       </div>
 
-      <div className="guessResults">
-        {answer.map((result, index) => (
-          <div key={index}>{result}</div>
-        ))}
-      </div>
-
       <p>Guess the 4 digit number</p>
       <input
         type="text"
